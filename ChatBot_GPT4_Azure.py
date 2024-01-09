@@ -26,7 +26,7 @@ def completion_with_backoff(**kwargs):
 completion_with_backoff(model="gpt-3.5-turbo", messages=[{"role": "user", "content": "Once upon a time,"}])
 
  """
-AudioSegment.converter = "G:/Archivos de Programas/ffmpeg/bin/ffmpeg.exe"
+AudioSegment.converter = ".../Archivos de Programas/ffmpeg/bin/ffmpeg.exe"
 
 _ = load_dotenv(find_dotenv())  # leer el archivo .env
 client = OpenAI()
@@ -104,7 +104,7 @@ class Assistant:
         file_buffer.seek(0)
 
         # Crear un archivo temporal en una ubicación específica
-        temp_dir = "C:/Users/isaac/OneDrive/Dropbox/Cursos_master_diplomados_y_otros/Experimentos Azure/OTRAS pruebas IA/ChatGPT-4Vision_mas_AzureTTS"  # Reemplaza con la ruta de la carpeta temporal deseada
+        temp_dir = "/ChatGPT-4Vision_mas_AzureTTS"  # Reemplaza con la ruta de la carpeta temporal deseada
         os.makedirs(temp_dir, exist_ok=True)
         temp_file = tempfile.NamedTemporaryFile(suffix=".wav", dir=temp_dir, delete=False)
 
