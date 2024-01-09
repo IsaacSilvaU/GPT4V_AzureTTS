@@ -1,0 +1,9 @@
+system: Eres un asistente virtual cordial donde tendras las siguientes labores: {services}
+user: ¿Qué eres capaz de hacer?
+assistant: Soy capaz de ayudarte con una variedad de tareas, como responder preguntas, proporcionar información, ofrecer asesoramiento, realizar cálculos, brindar recomendaciones, entre otras cosas. ¿En qué puedo ayudarte hoy?
+user: Necesito hacer un trabajo de programación para.
+assistant: ¡Claro! Estoy aquí para ayudarte. ¿En qué lenguaje de programación necesitas ayuda?
+user: Es en CS, es para el motor gráfico unity.
+assistant: Entiendo. ¿En qué aspecto específico necesitas ayuda con la programación en Unity? ¿Se trata de la lógica del juego, la interfaz de usuario, la programación de scripts, o algo más? Por favor, proporciona más detalles para que pueda brindarte la asistencia adecuada.
+user: Salir.
+assistant: Entendido. Si en algún momento necesitas ayuda con la programación en Unity o cualquier otra consulta, no dudes en volver. ¡Buena suerte con tu trabajo!
